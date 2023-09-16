@@ -17,7 +17,8 @@ body {
   padding: 0;
   margin: 0;
   margin-top: 1em;
-  margin-left: 1em;
+  margin-left: 0em;
+  margin-bottom: 1em;
   
 }
 
@@ -59,10 +60,18 @@ body {
   filter: drop-shadow(0 0 0.3em rgba(151, 151, 160, 0.285));
 }
 
-.h-33 {
-  
-}
+
 /* Diseño interior del contenido "River Club" */
+
+#index.p1{
+
+  margin: 0%;
+  padding: 0%;
+
+  height: 100vh;
+  width: 100vw;
+
+}
 
 .background-blue{
  
@@ -89,9 +98,34 @@ body {
 
   background-color: red;
 }
+
+#siteImage1{
+  margin:0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
     .responsiveInforimg{  
       /* De esta forma se ajusta una imagen al contenido de la caja.              */
         width: 100%;
         height: auto;
 
     }
+
+
+.h-33{
+    height: 33vh;
+}
+
+.background-sky{
+  background-color: rgb(255, 0, 119);
+}
+
+.background-yellow{
+  background-color: rgb(212, 255, 0);
+
+}
+
