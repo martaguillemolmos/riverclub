@@ -94,9 +94,8 @@ body {
       }
 
 /* Diseño interior contenido imagen */
-
 @media only screen and (max-width: 380px) {
-  .indexsub2{
+  .responsiveInforimg{
     display: none;
     
   }
