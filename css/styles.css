@@ -28,6 +28,14 @@ body {
 
 }
 
+#textoCabecera1{
+
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+
+}
+
 .imagenlogo {
 
   display: flex;
