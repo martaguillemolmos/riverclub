@@ -21,7 +21,7 @@ body {
 
 
 #textoCabecera{
-
+  width: 50em;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
@@ -29,22 +29,31 @@ body {
 }
 
 #textoCabecera1{
-
+  width: 50em;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
 
 }
 
-.imagenlogo {
-
+#textoCabecera2{
+  width: 50em;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
+  align-items: flex-start;
 
 }
 
+
+@media only screen and (max-width: 380px) {
+  .imagenlogo{
+    display: none;
+    
+  }
+}
 
 .imagenlogo:hover {
   cursor: pointer;
+  filter: drop-shadow(0 0 0.3em rgba(151, 151, 160, 0.285));
 }
+
