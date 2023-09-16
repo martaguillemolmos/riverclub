@@ -82,7 +82,7 @@ body {
   margin: 0;
   padding: 0;
 
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
       #responsiveTexto1{
@@ -94,10 +94,17 @@ body {
       }
 
 /* Diseño interior contenido imagen */
-.background-red{
 
-  background-color: red;
+@media only screen and (max-width: 380px) {
+  .indexsub2{
+    display: none;
+    
+  }
 }
+
+/* .background-red{
+background-color: red;
+} */
 
 #siteImage1{
   margin:0;
@@ -128,4 +135,5 @@ body {
   background-color: rgb(212, 255, 0);
 
 }
+
 
