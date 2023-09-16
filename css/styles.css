@@ -2,16 +2,18 @@ body {
   height: 100vh;
   width: 100vw;
   
+  padding: 0;
+  margin: 0;
+
   background-color: #f5f1f1;
   display: flex;
 
-  padding: 0;
-  margin: 0;
- 
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 3 em;
 }
 
 .cabecera {
+  display: block;
   padding: 0;
   margin: 0;
   margin-top: 1em;
@@ -57,3 +59,26 @@ body {
   filter: drop-shadow(0 0 0.3em rgba(151, 151, 160, 0.285));
 }
 
+
+ #responsiveTexto1{
+  display: flex;
+  justify-content: center;
+  align-self: start;
+
+  background-color: beige;
+}
+
+.background-red{
+ 
+  background-color: red;
+}
+
+.background-blue{
+  
+  background-color: aqua;
+}
+
+#textoExpl{
+  display:flex;
+  justify-content: center;
+} 
