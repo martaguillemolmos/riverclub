@@ -8,6 +8,7 @@ body {
   background-color: #f5f1f1;
   display: flex;
 
+
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 3 em;
 }
@@ -320,14 +321,6 @@ background-color: red;
   background-color: aqua;
 }
 
-/* .imgCarta{
-  margin: 0;
-  padding: 0;
-
-  width: 100%;
-  height: auto;
-} */
-
 .cartaEnsaladas{
   margin: 0;
   padding: 0;
@@ -337,24 +330,97 @@ background-color: red;
   background-color: black;
 }
 
-#fotoTipo{
+
+#fotoTipoEnsalada{
+  margin-bottom: 0.5em;
   display: flex;
   justify-content: center;
   align-items: center;
 
-  width: 100%;
-  height: 50vh;
 
-  background: url("/img/carnes.jpg")
-        no-repeat 50% / cover;
+  background: url("/img/ensalada.jpg");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  
+  width: 100%;
+  height: 30vh; /* You must set a specified height */
+
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
        
 
 }
 
+#fotoTipoHamburguesa{
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  background: url("/img/river3.jpg");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  
+  width: 100%;
+  height: 30vh; /* You must set a specified height */
+
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+       
+
+}
+
+#fotoTipoCarne{
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  background: url("/img/arroz.jpg");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  
+  width: 100%;
+  height: 30vh; /* You must set a specified height */
+
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+       
+
+}
+
+#fotoTipoPostre{
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  background: url("/img/postre.jpg");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  
+  width: 100%;
+  height: 30vh; /* You must set a specified height */
+
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+       
+}
 .h2InforCart{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#inforEnsaladas{
+
+  background-color: aqua;
 }
 
 
