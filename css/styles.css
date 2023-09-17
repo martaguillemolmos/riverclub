@@ -156,12 +156,18 @@ background-color: red;
   box-sizing: border-box;
 }
 
+#indCarta{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
 
 #indexCarta {
   width: 100%;
 
   display: flex;
   justify-content: center;
+  
 
   height: 30em;
   gap: 1em;
@@ -223,8 +229,12 @@ background-color: red;
     }
 
     &:hover {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
       flex: 0 0 15em;
-      box-shadow: 1em 1px 15px #000000;
+      box-shadow: 1em 1px 3em #000000;
       transform: translatey(-0.5em);
     }
 
@@ -235,7 +245,15 @@ background-color: red;
     }
   }
 }
+.textIndCarta{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Intentamos añadir flex-direction para girar el texto pero no nos realiza cambios. */
+  
+  height: 50vh;
 
+}
 /* .h3 textIndCarta {
   display: flex;
   justify-content: flex-start;
@@ -294,4 +312,6 @@ background-color: red;
   justify-content: center;
   align-items: center;
 }
+
+
 
