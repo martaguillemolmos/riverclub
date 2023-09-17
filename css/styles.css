@@ -170,63 +170,36 @@ background-color: red;
         no-repeat 50% / cover ;
 }
 
-/* @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+ /* Le daremos formato al div con la información de la carta, situada en el index. */
+.h2IndexCarta{
+  margin: 0;
+  padding: 0;
+
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
 * {
   margin: 0;
   padding: 0;
-  
+  box-sizing: border-box;
 }
 
-.indCarta{
-  margin: 0;
-  padding: 0;
-
-  height: 50vh;
+#indCarta{
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap:1em;
-
-  background-color: aqua;
-
-  
 }
 
-.indexCarta{
-  margin: 0;
-  padding: 0;
-
-  display: content;
-
-}
-
-#hb-img{
-  margin: 0;
-  padding: 0;
-
+#indexCarta {
   width: 100%;
-  height: auto;
-  /* height: 40eh; */
 
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-
-  flex: 0 0 10em;
-  border-radius: 0.5rem;
-  transition: 0.5s ease-in-out;
-  cursor: pointer;
-  overflow: hidden;
-
-  background: url("/img/hamburguesa.jpg")
-        no-repeat 50% / cover ;
-}
-
-#ens-img{
-  background-color: rgb(245, 220, 244);
-}
-
-.indexCarta {
   display: flex;
   justify-content: center;
   
@@ -234,9 +207,9 @@ background-color: red;
   height: 30em;
   gap: 1em;
 
-  margin-bottom: 1em; */ */
+  margin-bottom: 1em;
 
-  /* > div {
+  > div {
     flex: 0 0 10em;
     border-radius: 0.5rem;
     transition: 0.5s ease-in-out;
@@ -315,7 +288,16 @@ background-color: red;
   
   height: 50vh;
 
-} */
+}
+.textIndCarta{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Intentamos añadir flex-direction para girar el texto pero no nos realiza cambios. */
+  
+  height: 50vh;
+
+} 
 /* .h3 textIndCarta {
   display: flex;
   justify-content: flex-start;
