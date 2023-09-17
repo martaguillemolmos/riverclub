@@ -136,6 +136,19 @@ background-color: red;
 }
 
 /* Le daremos formato al div con la información de la carta, situada en el index. */
+.h2IndexCarta{
+  margin: 0;
+  padding: 0;
+
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
 * {
   margin: 0;
@@ -146,10 +159,14 @@ background-color: red;
 
 #indexCarta {
   width: 100%;
+
   display: flex;
   justify-content: center;
+
   height: 30em;
   gap: 1em;
+
+  margin-bottom: 1em;
 
   > div {
     flex: 0 0 10em;
@@ -219,9 +236,62 @@ background-color: red;
   }
 }
 
-.contentIndCarta {
+/* .h3 textIndCarta {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
 
+} */
+
+
+/* Damos formato al contenido de la página Carta. */
+
+.titleText{
+  display: flex;
+  background-color:red;
+  
 }
+
+.price{
+  display: flex;
+  justify-content: flex-end;
+  background-color: aqua;
+}
+
+/* .imgCarta{
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  height: auto;
+} */
+
+.cartaEnsaladas{
+  margin: 0;
+  padding: 0;
+
+  display: content;
+
+  background-color: black;
+}
+
+#fotoTipo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 50vh;
+
+  background: url("/img/carnes.jpg")
+        no-repeat 50% / cover;
+       
+
+}
+
+.h2InforCart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
