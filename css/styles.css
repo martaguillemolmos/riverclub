@@ -149,22 +149,84 @@ background-color: red;
   gap: 1em;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+.background-arroz{
+  background-color: yellow;
+}
+
+.background-hamb{
+  margin: 0;
+  padding: 0;
+  width: auto;
+  display: flex;
+  justify-content: end;
+  flex-direction: column-reverse;
+ 
+  border-radius: 0.5rem;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  overflow: hidden;
+
+  background: url("/img/hamburguesa.jpg")
+        no-repeat 50% / cover ;
+}
+
+/* @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  
 }
 
-#indCarta{
+.indCarta{
+  margin: 0;
+  padding: 0;
+
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  gap:1em;
+
+  background-color: aqua;
+
+  
 }
 
-#indexCarta {
-  width: 100%;
+.indexCarta{
+  margin: 0;
+  padding: 0;
 
+  display: content;
+
+}
+
+#hb-img{
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  height: auto;
+  /* height: 40eh; */
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex: 0 0 10em;
+  border-radius: 0.5rem;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  overflow: hidden;
+
+  background: url("/img/hamburguesa.jpg")
+        no-repeat 50% / cover ;
+}
+
+#ens-img{
+  background-color: rgb(245, 220, 244);
+}
+
+.indexCarta {
   display: flex;
   justify-content: center;
   
@@ -172,9 +234,9 @@ background-color: red;
   height: 30em;
   gap: 1em;
 
-  margin-bottom: 1em;
+  margin-bottom: 1em; */ */
 
-  > div {
+  /* > div {
     flex: 0 0 10em;
     border-radius: 0.5rem;
     transition: 0.5s ease-in-out;
@@ -253,7 +315,7 @@ background-color: red;
   
   height: 50vh;
 
-}
+} */
 /* .h3 textIndCarta {
   display: flex;
   justify-content: flex-start;
