@@ -135,4 +135,93 @@ background-color: red;
 
 }
 
+/* Le daremos formato al div con la información de la carta, situada en el index. */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+
+#indexCarta {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 30em;
+  gap: 1em;
+
+  > div {
+    flex: 0 0 10em;
+    border-radius: 0.5rem;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+    &:nth-of-type(1) {
+      background: url("/img/hamburguesa.jpg")
+        no-repeat 50% / cover;
+    }
+    &:nth-of-type(2) {
+      background: url("/img/ensalada.jpg")
+        no-repeat 50% / cover;
+    }
+    &:nth-of-type(3) {
+      background: url("/img/arroz.jpg")
+        no-repeat 50% / cover;
+    }
+    &:nth-of-type(4) {
+      background: url("/img/postre.jpg")
+        no-repeat 50% / cover;
+    }
+
+    .content {
+      font-size: 1.5rem;
+      color: #fff;
+      display: flex;
+      justify-content: flex-end;
+    
+  
+      padding: 15em;
+      opacity: 0;
+      flex-direction: column;
+      height: 100%;
+      justify-content: flex-end;
+      background: rgb(2, 2, 46);
+      background: linear-gradient(
+        0deg,
+        rgba(2, 2, 46, 0.6755077030812324) 0%,
+        rgba(255, 255, 255, 0) 100%
+      );
+      transform: translatey(100%);
+      transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
+      visibility: hidden;
+
+      span {
+        display: block;
+        margin-top: 5em;
+        font-size: 1.2rem;
+      }
+    }
+
+    &:hover {
+      flex: 0 0 15em;
+      box-shadow: 1em 1px 15px #000000;
+      transform: translatey(-0.5em);
+    }
+
+    &:hover .content {
+      opacity: 1;
+      transform: translatey(0%);
+      visibility: visible;
+    }
+  }
+}
+
+.contentIndCarta {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+
+}
