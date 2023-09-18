@@ -8,6 +8,7 @@ body {
   background-color: #f5f1f1;
   display: flex;
 
+  overflow-x: hidden;
 
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 3 em;
@@ -136,183 +137,28 @@ background-color: red;
 
 }
 
-/* Le daremos formato al div con la información de la carta, situada en el index. */
-.h2IndexCarta{
-  margin: 0;
-  padding: 0;
-
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1em;
-}
-
-.background-arroz{
-  background-color: yellow;
-}
-
-.background-hamb{
-  margin: 0;
-  padding: 0;
-  width: auto;
-  display: flex;
-  justify-content: end;
-  flex-direction: column-reverse;
- 
-  border-radius: 0.5rem;
-  transition: 0.5s ease-in-out;
-  cursor: pointer;
-  overflow: hidden;
-
-  background: url("/img/hamburguesa.jpg")
-        no-repeat 50% / cover ;
-}
-
- /* Le daremos formato al div con la información de la carta, situada en el index. */
-.h2IndexCarta{
-  margin: 0;
-  padding: 0;
-
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1em;
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-#indCarta{
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-#indexCarta {
-  width: 100%;
-
-  display: flex;
-  justify-content: center;
-  
-
-  height: 30em;
-  gap: 1em;
-
-  margin-bottom: 1em;
-
-  > div {
-    flex: 0 0 10em;
-    border-radius: 0.5rem;
-    transition: 0.5s ease-in-out;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-
-    &:nth-of-type(1) {
-      background: url("/img/hamburguesa.jpg")
-        no-repeat 50% / cover;
-    }
-    &:nth-of-type(2) {
-      background: url("/img/ensalada.jpg")
-        no-repeat 50% / cover;
-    }
-    &:nth-of-type(3) {
-      background: url("/img/arroz.jpg")
-        no-repeat 50% / cover;
-    }
-    &:nth-of-type(4) {
-      background: url("/img/postre.jpg")
-        no-repeat 50% / cover;
-    }
-
-    .content {
-      font-size: 1.5rem;
-      color: #fff;
-      display: flex;
-      justify-content: flex-end;
-    
-  
-      padding: 15em;
-      opacity: 0;
-      flex-direction: column;
-      height: 100%;
-      justify-content: flex-end;
-      background: rgb(2, 2, 46);
-      background: linear-gradient(
-        0deg,
-        rgba(2, 2, 46, 0.6755077030812324) 0%,
-        rgba(255, 255, 255, 0) 100%
-      );
-      transform: translatey(100%);
-      transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
-      visibility: hidden;
-
-      span {
-        display: block;
-        margin-top: 5em;
-        font-size: 1.2rem;
-      }
-    }
-
-    &:hover {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      flex: 0 0 15em;
-      box-shadow: 1em 1px 3em #000000;
-      transform: translatey(-0.5em);
-    }
-
-    &:hover .content {
-      opacity: 1;
-      transform: translatey(0%);
-      visibility: visible;
-    }
-  }
-}
-.textIndCarta{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* Intentamos añadir flex-direction para girar el texto pero no nos realiza cambios. */
-  
-  height: 50vh;
-
-}
-.textIndCarta{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* Intentamos añadir flex-direction para girar el texto pero no nos realiza cambios. */
-  
-  height: 50vh;
-
-} 
-/* .h3 textIndCarta {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-
-} */
-
 
 /* Damos formato al contenido de la página Carta. */
 
 .titleText{
   display: flex;
   background-color:red;
-  
+  margin-top: 0em;
+}
+
+.titleText2{
+  display: flex;
+
+  margin-top: 1.5em;
+  background-color: aquamarine;
+}
+
+.price2{
+  display: flex;
+  justify-content: flex-end;
+  background-color: aqua;
+
+  margin-top: 1.5em;
 }
 
 .price{
@@ -359,7 +205,7 @@ background-color: red;
   align-items: center;
 
 
-  background: url("/img/river3.jpg");
+  background: url("/img/hamburguesa.jpeg");
   background-color: #cccccc; /* Used if the image is unavailable */
   
   width: 100%;
@@ -424,7 +270,7 @@ background-color: red;
 }
 
 /* CSS de la Carta situada en index.html */
-.background-red{
+ .background-red{
   margin: 0;
   padding: 0;
 
@@ -432,7 +278,6 @@ background-color: red;
   justify-content: center;
   align-items: center;
 
-  background-image: url (im);
 }
 
 .background-yellow{
@@ -462,11 +307,11 @@ row cartaIndex1{
   margin: 0;
   padding: 0;
 
-  height: 30vh;
+  height: 40vh;
 }
 .indexEnsaladaprueba{
   width: 10em;
-  height: 20em;
+  height: 10em;
 }
 
 .row h-33 index{
@@ -485,12 +330,13 @@ row cartaIndex1{
 
   display: block;
  
+  border-radius: 2%;
 }
 
 .columna1Index {
   position: relative;
   width: 100%;
-}
+  border-radius: 10%;}
 
 .columna1Index:hover{
 
@@ -502,7 +348,7 @@ flex: 0 0 1;
 cursor: pointer;
 box-shadow: 1em 1px 3em #00000029;
 /* transform: scale (0.1em); */
-transform: scale(1.05);
+/* transform: scale(1.05);
 }
 
 
@@ -527,5 +373,3 @@ transform: scale(1.05);
   align-items: center;
 
 }
-
-
