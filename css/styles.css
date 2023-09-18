@@ -91,7 +91,9 @@ body {
 }
 
       #responsiveTexto1{
-        background-color: beige;
+        margin: 0;
+        padding: 0;
+        
       }
 
       #textoExpl{
@@ -327,6 +329,8 @@ box-shadow: 1em 1px 3em #00000029;
 
   color:white;
   text-align: center;
+  text-shadow: #0e0e0e 0.2em 0.2em 0.2em;
+  font-size: 2em;
   transform: translate(-50%,-50%);
 
 
@@ -479,4 +483,10 @@ p{
 }
 .h2CartaIndex{
  font-size; 10em: 
+}
+
+.h2IdexConoce{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.8em;;
 }
