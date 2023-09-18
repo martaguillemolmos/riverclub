@@ -43,8 +43,8 @@ Mi proyecto consta de:
 ​
 ### Observaciones: 
 ​En la página de inicio:
-  - Me hubiese gustado adaptar el tamaño del carrusel. 
-  - Cada imagen de la carta te llevara a la sección de la carta correspondiente en la página carta.html. 
+- Me hubiese gustado adaptar el tamaño del carrusel. 
+- Cada imagen de la carta te llevara a la sección de la carta correspondiente en la página carta.html. 
 ​
 ​
 ### Licencia y copyright
