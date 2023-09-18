@@ -128,22 +128,10 @@ background-color: red;
 
 
 
-
-.background-sky{
-  background-color: rgb(255, 0, 119);
-}
-
-.background-yellow{
-  background-color: rgb(212, 255, 0);
-
-}
-
-
 /* Damos formato al contenido de la página Carta. */
 
 .titleText{
   display: flex;
-  background-color:red;
   margin-top: 0em;
 }
 
@@ -151,13 +139,11 @@ background-color: red;
   display: flex;
 
   margin-top: 1.5em;
-  background-color: aquamarine;
 }
 
 .price2{
   display: flex;
   justify-content: flex-end;
-  background-color: aqua;
 
   margin-top: 1.5em;
 }
@@ -165,7 +151,6 @@ background-color: red;
 .price{
   display: flex;
   justify-content: flex-end;
-  background-color: aqua;
 }
 
 .cartaEnsaladas{
@@ -206,7 +191,7 @@ background-color: red;
   align-items: center;
 
 
-  background: url("/img/river3.jpg");
+  background: url("/img/hamburguesa.jpeg");
   background-color: #cccccc; /* Used if the image is unavailable */
   
   width: 100%;
@@ -227,7 +212,7 @@ background-color: red;
   align-items: center;
 
 
-  background: url("/img/arroz.jpg");
+  background: url("/img/carnes.jpg");
   background-color: #cccccc; /* Used if the image is unavailable */
   
   width: 100%;
@@ -265,10 +250,6 @@ background-color: red;
   align-items: center;
 }
 
-#inforEnsaladas{
-
-  background-color: aqua;
-}
 
 /* CSS de la Carta situada en index.html */
  .background-red{
@@ -281,21 +262,6 @@ background-color: red;
 
 }
 
-.background-yellow{
-  background-color: yellow;
-}
-
-.background-green{
-  background-color: rgb(140, 255, 105);
-}
-
-.background-lila{
-  background-color: rgb(255, 105, 205);
-}
-
-.background-orange{
-  background-color: rgb(223, 105, 26);
-}
 
 .container-fluid 1{
   margin:100%;
@@ -362,7 +328,7 @@ box-shadow: 1em 1px 3em #00000029;
   color:white;
   text-align: center;
   transform: translate(-50%,-50%);
-  
+
 
 }
 
