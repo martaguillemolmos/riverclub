@@ -14,10 +14,9 @@ Desarrollada como parte del Bootcamp de Full Stack Developer de Geekshubs Academ
 ​
 <p align="center">HTML5, CSS3 y Bootstrap.
 ​
-[Enlace Grupo Copenhagen - Judit Grau](https://ditgrau.github.io/fsdGrupoCopenhagen/)
+<p align="center">_______________________________________________</p>
 ​
-## Tabla de contenidos
-​
+### River Club 
 ​
 - [River Club](#River Club)
 - [Descripción del proyecto](#Descripción)
@@ -25,11 +24,13 @@ Desarrollada como parte del Bootcamp de Full Stack Developer de Geekshubs Academ
 - [Licencia y Copyright](#licencia-y-copyright)
 <br>
 ​
-​
+​<p align="center">_______________________________________________</p>
+
 ### River Club 
 ​
 Decidí escoger el River Club como restaurante, este restaurante está ubicado en Montanejos. El tipo de diseño que he utilizado es un diseño que sigue unas mismas gamas de colores neutras. En todas las páginas hemos utilizado un diseño responsive y adaptativo.
-​
+​<p align="center">_______________________________________________</p>
+
 ### Descripción
 ​
 Este proyecto se centra en la utilización de Bootstrap, como framework para un diseño responsive y adaptativo.
