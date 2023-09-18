@@ -363,7 +363,7 @@ input {
   border-radius: 0.5em;  
   border-style: solid; 
   border-width: 0.01em; 
-  border-color: #ab6a44; 
+  border-color: #acacac; 
   margin-top: 0.6em;  
   padding-left:0.6em;
   margin-bottom: 1.2em; 
@@ -378,7 +378,7 @@ textarea{
   border-radius: 0.5em;  
   border-style: solid; 
   border-width: 0.01em; 
-  border-color: #ab6a44; 
+  border-color: #acacac; 
   margin-top: 0.6em;  
   padding-left:0.6em;
   margin-bottom: 1.2em; 
@@ -391,15 +391,18 @@ label{
 }
 
 
-button{
-  height: 3em; 
+.botonContacto{
+  height: 2.5em; 
+  justify-content: center;
+  align-items: center;
   text-align: center;
 
+
   text-transform: uppercase;
-  background-color: #ab6a44; 
-  border-color: #ab6a44; 
+  background-color: #d9ad26; 
+  border-color: #d9ad26; 
   border-style: solid; 
-  border-radius: 10px;  
+  border-radius: 1em;  
   width: 90%;   
   cursor: pointer;
 }
@@ -418,7 +421,7 @@ span{
 
 
 .aviso{
-  font-size: 13px;  
+  font-size: 0.9em;  
   color: #0e0e0e;  
 }
 
@@ -465,3 +468,6 @@ p{
   border: 1px solid #d89e48;
 }
 
+#footercambiar{
+  margin-top: 2em;
+}
