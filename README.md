@@ -4,7 +4,7 @@
 __<p align="center">Proyecto 1 - Carta Restaurante</p>__
 ​
 
-Desarrollada como parte del Bootcamp de Full Stack Developer de Geekshubs Academy.</p>
+Desarrollada como parte del Bootcamp de Full Stack Developer de Geekshubs Academy.Puedes acceder a través de GitHub Pages: https://martaguillemolmos.github.io/riverclub/</p>
 ​
 ​
 <p align="center">_______________________________________________</p>
@@ -45,6 +45,7 @@ Mi proyecto consta de:
 ​En la página de inicio:
 - Me hubiese gustado adaptar el tamaño del carrusel. 
 - Cada imagen de la carta te llevara a la sección de la carta correspondiente en la página carta.html. 
+
 ​
 ​
 ### Licencia y copyright
