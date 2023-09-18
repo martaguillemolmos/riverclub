@@ -42,12 +42,11 @@ Mi proyecto consta de:
 ​
 ​
 ### Observaciones: 
-​
-- En la página de inicio:
-  1- Me hubiese gustado adaptar el tamaño del carrusel. 
-  2- Cada imagen de la carta te llevara a la sección de la carta correspondiente en la página carta.html. 
+​En la página de inicio:
+  - Me hubiese gustado adaptar el tamaño del carrusel. 
+  - Cada imagen de la carta te llevara a la sección de la carta correspondiente en la página carta.html. 
 ​
 ​
 ### Licencia y copyright
 📝 La licencia utilizada es una MIT License.
-Este proyecto ha sido realizado por mí, Judit Grau Puigdollers, inéditamente para la tarea 'Carta digital de un restaurante en Bootstrap' en la edición de abril 2023 de GeeksHubs Academy.
+
