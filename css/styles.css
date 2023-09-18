@@ -13,6 +13,9 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 3 em;
 }
+.caja{
+  padding: 1em 0;
+}
 
 .cabecera {
   display: block;
@@ -124,9 +127,7 @@ background-color: red;
     }
 
 
-.h-33{
-    height: 33vh;
-}
+
 
 .background-sky{
   background-color: rgb(255, 0, 119);
@@ -205,7 +206,7 @@ background-color: red;
   align-items: center;
 
 
-  background: url("/img/hamburguesa.jpeg");
+  background: url("/img/river3.jpg");
   background-color: #cccccc; /* Used if the image is unavailable */
   
   width: 100%;
@@ -326,7 +327,7 @@ row cartaIndex1{
 
 .picture{
   width: 100%;
-  height: auto;
+  max-height: 13em;
 
   display: block;
  
@@ -347,8 +348,8 @@ align-items: center;
 flex: 0 0 1;
 cursor: pointer;
 box-shadow: 1em 1px 3em #00000029;
-/* transform: scale (0.1em); */
-/* transform: scale(1.05);
+ transform: scale (0.1em); 
+ transform: scale(1.05);
 }
 
 
@@ -361,6 +362,7 @@ box-shadow: 1em 1px 3em #00000029;
   color:white;
   text-align: center;
   transform: translate(-50%,-50%);
+  
 
 }
 
@@ -373,3 +375,5 @@ box-shadow: 1em 1px 3em #00000029;
   align-items: center;
 
 }
+ 
+
