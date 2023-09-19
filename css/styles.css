@@ -53,17 +53,17 @@ body {
 }
 
 
-/* @media only screen and (max-width: 380px) {
-  .imagenlogo1{
+@media only screen and (max-width: 380px) {
+  .logocorporativo{
     display: none;
     
   }
 }
 
-.imagenlogo1:hover {
+.logocorporativo:hover {
   cursor: pointer;
   filter: drop-shadow(0 0 0.3em rgba(151, 151, 160, 0.285));
-} */
+}
 
 
 /* Diseño interior del contenido "River Club" */
