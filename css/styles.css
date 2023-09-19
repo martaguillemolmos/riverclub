@@ -53,17 +53,17 @@ body {
 }
 
 
-@media only screen and (max-width: 380px) {
-  .imagenlogo{
+/* @media only screen and (max-width: 380px) {
+  .imagenlogo1{
     display: none;
     
   }
 }
 
-.imagenlogo:hover {
+.imagenlogo1:hover {
   cursor: pointer;
   filter: drop-shadow(0 0 0.3em rgba(151, 151, 160, 0.285));
-}
+} */
 
 
 /* Diseño interior del contenido "River Club" */
@@ -165,7 +165,9 @@ background-color: red;
 }
 
 
+
 #fotoTipoEnsalada{
+  margin-top: 1em;
   margin-bottom: 0.5em;
   display: flex;
   justify-content: center;
@@ -485,6 +487,7 @@ p{
  font-size; 10em: 
 }
 
+/* Retoques de última hora */
 .h2IdexConoce{
   display: flex;
   justify-content: center;
@@ -499,3 +502,4 @@ p{
   height: 40%;
 }
 
+/* Añadir posible cabecera */
